@@ -1,0 +1,110 @@
+@media(max-width: 1024px){
+    .card{
+        width: 850px;
+        height: 350px;
+    }
+
+    .infos{
+        padding: 50px;
+    }
+
+    .infos .titulo{
+        font-size: 28px;
+    }
+
+    .infos .descricao{
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    .numeros{
+        max-width: 327px;
+    }
+
+    .numeros .numero{
+        font-size: 22px;
+    }
+
+    .numeros .nome{
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 768px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 750px;
+    }
+
+    .infos{
+        order: 2;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .infos .titulo{
+        max-width: 400px;
+    }
+
+    .infos .descricao{
+        max-width: 400px;
+        margin-bottom: 60px;
+    }
+
+    .infos .numeros{
+        max-width: 400px;
+    }
+
+    .imagem{
+        order: 1;
+    }
+
+    .imagem img{
+        border-radius: 10px 10px 0 0;
+    }
+
+    .imagem::before{
+        border-radius: 10px 10px 0 0;
+    }
+}
+
+@media(max-width: 425px){
+    .card{
+        width: 350px;
+        height: 750px;
+    }
+
+    .infos{
+        padding: 30px;
+    }
+
+    .infos .titulo{
+        margin-bottom: 15px;
+    }
+
+    .infos .descricao{
+        margin-bottom: 30px;
+    }
+
+    .infos .numeros{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infos .numeros li{
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 320px){
+    .card{
+        width: 300px;
+        height: 750px;
+    }
+
+    .infos .titulo{
+        margin-bottom: 30px;
+    }
+}
