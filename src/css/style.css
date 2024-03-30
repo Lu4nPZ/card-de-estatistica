@@ -48,7 +48,7 @@ main{
 .numeros .numero{
     font-family: var(--Inter), sans-serif;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 700;
     color: var(--White);
 }
 
